@@ -11,6 +11,7 @@ declare global {
        */
       start(): Chainable<Element>
       searchItem(value: string):  Chainable<Element>
+      findItem(value: string): Chainable<Element>
     }
   }
 }
